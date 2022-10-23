@@ -236,10 +236,6 @@ export const mobileNav = [
     text: "Trips",
   },
   {
-    icon: <ChatAltIcon className="w-6" />,
-    text: "Inbox",
-  },
-  {
     icon: <UserCircleIcon className="w-6" />,
     text: "Profile",
   },

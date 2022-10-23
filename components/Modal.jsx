@@ -9,9 +9,9 @@ const Modal = () => {
           <label htmlFor="my-modal-6" className="absolute left-8 top-8 text-lg text-black cursor-pointer">
             ✕
           </label>
-          <div className="flex justify-between max-w-[95%] lg:max-w-[90%] mx-auto py-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  max-w-[95%] lg:max-w-[90%] mx-auto py-10">
             {footerLink?.map((links, idx) => (
-              <div key={idx}>
+              <div key={idx} className="mb-4">
                 <h3 className="font-bold mb-4"> {links.heading} </h3>
                 <div className="flex flex-col gap-4 text-sm">
                   {links.list?.map((list, id) => (

@@ -8,5 +8,4 @@ export { default as Filters } from "./Filters";
 export { default as Header } from "./Header";
 export { default as MobileNavigation } from "./MobileNavigation";
 export { default as MobileSearch } from "./MobileSearch";
-export { default as SkeletonListing } from "./SkeletonListing";
 export { default as ShowMap } from "./ShowMap";
