@@ -3,14 +3,14 @@ import { Header, ListingCardContainer, Meta, Footer, MobileNavigation, ShowMap }
 
 const Home = () => {
   return (
-    <>
+    <div className="relative">
       <Meta />
       <Header />
       <ListingCardContainer />
       <Footer />
       <MobileNavigation />
       <ShowMap />
-    </>
+    </div>
   );
 };
 
